@@ -27,26 +27,20 @@
         <!-- Numeric Textfield -->
         <h2>Test Case</h2>
         <hr />
-        <h4> fomula: height x length = area </h4>
-        <p>input square's length</p>
+        <h4> fomula: 4/3πr³ = area </h4>
+        <p>input radius</p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="get_length">
-          <label class="mdl-textfield__label" for="get_length">input length here ...</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        <p>input square's height</p>
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="get_height">
-          <label class="mdl-textfield__label" for="get_height">input height here ...(mm)</label>
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="get_radius">
+          <label class="mdl-textfield__label" for="get_radius">input radius here ...</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="Case1()">
+          onclick="CaseTest()">
           Caculate
         </button>
         <div>
           <br />
-          <p id="Answer"></p>
+          <p id="Ans"></p>
         </div>
   </div>
   <br />

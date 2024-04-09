@@ -1,18 +1,12 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Yoochan
+// Created on: Apr 2024
 // This file contains the JS functions for index.html
-function Case1() {
-  const length = parseFloat(document.getElementById("get_length").value)
-  const height = parseFloat(document.getElementById("get_height").value)
-  let ans = (length * height)
-  document.getElementById("Ans").innerHTML = ans + "cm²"
-}
-function Case2() {
+
+function CaseTest() {
   const pi = "π"
   const radius = parseFloat(document.getElementById("get_radius").value)
-  const height = parseFloat(document.getElementById("get_height").value)
-  let ans = (length * height)
-  document.getElementById("Ans").innerHTML = ans + "cm²"
+  let ans = 4/3*(radius**3)
+  document.getElementById("Ans").innerHTML = ans + pi + "cm³"
 }
