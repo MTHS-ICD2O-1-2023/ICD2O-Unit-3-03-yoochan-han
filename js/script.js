@@ -13,4 +13,3 @@ function CaseTest() {
   document.getElementById("progress3").innerHTML = "V = 4/3" + pi + (radius**3).toFixed(2) + "(cm³)"
   document.getElementById("Ans").innerHTML = "V = " + ans.toFixed(2) + pi + "cm³"
 }
-
